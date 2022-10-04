@@ -7,7 +7,7 @@ import Main from "../components/Main.client";
 export default function Home() {
   return (
     <div className={styles.container}>
-      <Main></Main>
+      <Main />
     </div>
   );
 }

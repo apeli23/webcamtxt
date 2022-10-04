@@ -61,6 +61,7 @@ export default function Main() {
   };
 
   const uploadVideo = async (base64) => {
+    
     console.log("uploading to backend...");
     try {
       fetch("/api/upload", {
